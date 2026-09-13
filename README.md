@@ -26,9 +26,8 @@ python -m http.server 8000
 # 然后访问 http://localhost:8000
 ```
 
-## GitHub Pages 在线试玩
-在仓库 **Settings → Pages** 中选择 `main` 分支的根目录，保存后即可通过
-`https://zzy-2011.github.io/dino-game/` 在线游玩。
+## 在线试玩
+**🎮 点这里直接玩：** https://zzy-2011.github.io/dino-game/
 
 ## 文件结构
 ```
