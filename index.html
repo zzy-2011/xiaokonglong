@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>小恐龙跑酷 · Dino Runner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>🦖 小恐龙跑酷</h1>
+    <p class="hint">空格 / ↑ / 点击 跳跃 &nbsp;·&nbsp; ↓ 下蹲 &nbsp;·&nbsp; P 暂停</p>
+
+    <div class="stage">
+      <canvas id="game" width="800" height="200" aria-label="小恐龙跑酷游戏"></canvas>
+      <div id="overlay" class="overlay">
+        <div class="panel">
+          <div class="big">按 空格 开始</div>
+          <div class="sub">跳跃躲避仙人掌，下蹲躲开翼龙</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="legend">
+      <span>␣ 跳跃</span>
+      <span>⤓ 下蹲</span>
+      <span>⏸ 暂停</span>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
